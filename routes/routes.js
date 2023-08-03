@@ -18,7 +18,7 @@ router.post('/travel-plan', async (req, res) => {
         mode_of_travel: req.body.mode_of_travel || '',
         mode_of_travel_within_city: req.body.mode_of_travel_within_city || '',
         travel_plan: req.body.travel_plan || '',
-        subsciption: req.body.subsciption || '',
+        subsciption: req.body.subscription || '',
     })
 
     try {
